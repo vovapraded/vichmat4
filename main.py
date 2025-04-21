@@ -246,7 +246,7 @@ for name, result in results.items():
     plt.plot(result['x'], result['phi'], label=f"{name} (σ ≈ {result['sigma']:.3f})")
 plt.xlabel("x")
 plt.ylabel("y")
-plt.title("Аппроксимация без curve_fit")
+plt.title("Аппроксимация")
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
